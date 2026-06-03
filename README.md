@@ -26,7 +26,7 @@ In practical terms, the system was designed to:
 - Use a Markov Decision Process (MDP) layer to formalize decision support.
 - Present financial outputs through an interactive dashboard that is more readable than isolated technical signals.
 
-In doing so, the model functions as a personalized investment advisor: the user submits a query for a specific company, the full analytical pipeline runs, and a recommendation is returned that the user can choose to execute or ignore.
+In doing so, the system functions as a personalized investment advisor: the user submits a query for a specific company, the full analytical pipeline runs, and a recommendation is returned that the user can choose to execute or ignore.
 
 ## System Architecture
 
