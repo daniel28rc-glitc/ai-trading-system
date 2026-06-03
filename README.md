@@ -8,7 +8,7 @@ An academic project focused on the design of an intelligent investment support s
 
 ## Overview
 
-This repository presents the conceptual design, interface, and system architecture of an AI-driven trading and investment analysis platform. The project was developed to explore how specialized analytical modules can collaborate within a unified workflow to generate structured financial insights and support investment interpretation.
+This repository presents the conceptual design, interface, and system architecture of an AI-driven trading and investment analysis platform built on large language models (LLMs) and reinforcement learning. The project was developed to explore how specialized analytical modules can collaborate within a unified workflow to generate structured financial insights and support investment interpretation.
 
 The system combines user profiling, evaluator reasoning, quant and risk analysis, fundamental market interpretation, a FINMEM-inspired memory structure, a FINCON-style parallel agent organization, and an MDP-based decision layer. The purpose of this public repository is not to expose the private implementation, but to document the overall design approach, the architectural structure, and the user-facing dashboard in a clear and professional format.
 
