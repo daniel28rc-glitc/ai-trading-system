@@ -39,7 +39,7 @@ The overall system is organized around the following conceptual blocks:
 - **Interactive Interface:** A Gradio-based front-end used to present the analytical flow and final output to the user.
 - **Graph / Orchestration Layer:** A coordination structure that routes information across the different modules and consolidates their outputs.
 - **FINCON-Style Parallel Agents:** A parallel organization of specialized analytical agents responsible for fundamental analysis based on financial reports, quantitative analysis, and risk assessment based on the ticker’s historical data.
-- **FINMEM-Inspired Memory Structure:** An adaptive memory layer designed to retain selected historical context and improve continuity across analytical cycles.
+- **FINMEM-Inspired Memory Structure:** A layered adaptive memory that organises information across recency-based layers, scoring each entry through a combination of recency decay, relevance, and importance. Entries are promoted with usage and pruned when their score falls below layer-specific thresholds.
 - **MDP Decision Layer:** A Markov Decision Process component designed to support structured investment interpretation through state-based decision modeling.
 - **Evaluator & Feedback Loop:** A self-correcting layer that monitors the performance of the specialized analytical agents over time and generates targeted feedback to prevent bias accumulation and flawed strategies, while being carefully designed so that its corrections do not introduce overfitting into the agents it guides.
 
