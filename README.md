@@ -70,6 +70,8 @@ Main technologies and concepts used in the project include:
 - FINCON-style parallel agent organization
 - Markov Decision Process (MDP) modeling
 - Financial analytics and recommendation support
+- Large Language Models
+- Reinforcement Learning (Q-learning / DynaQ-based decision support)
 - Version control with Git and GitHub
 
 ## Dashboard Gallery
